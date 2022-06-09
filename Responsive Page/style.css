@@ -32,7 +32,18 @@ p {
   letter-spacing: .05rem;
   color: black;
 }
-
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  columns: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+.section-title span {
+  color: crimson;
+}
 /* hero section */
 #hero {
   background-image: url(./img/background.jpg);
@@ -124,18 +135,7 @@ p {
   margin: 0 auto;
   padding: 100px 0;
 }
-#services .section-title {
-  font-size: 4rem;
-  font-weight: 300;
-  columns: black;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  text-align: center;
-}
-#services .section-title span {
-  color: crimson;
-}
+
 #services .service-top p {
   font-size: 1.4rem;
   margin-top: 5px;
@@ -194,6 +194,25 @@ p {
 }
 
 /* end of services section */
+
+/* Projects Section */
+#projects .projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#projects .projects-header h1 {
+  margin-bottom: 50px;
+}
+#prjects .all-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* End of Projects Section */
 
 /* keyframes */
 @keyframes text_reveal_box {
