@@ -435,3 +435,48 @@ p {
 }
 
 /* end of keyframes */
+/* Media Query For Tablet */
+@media screen and(min-width: 768px) {
+  .cta {
+    font-size: 2.5rem;
+    padding: 20px 60px;
+  }
+  .section-tile h1 {
+    font-size: 6rem;
+  }
+
+  /* Hero */
+  #hero h1 {
+    font-size: 7rem;
+  }
+  /* End Hero */
+
+  /* Service Section */
+  #services .service-bottom .service-item {
+    flex-basis: 45%;
+    margin: 1.5%;
+  }
+  /* End Service Section */
+
+  /* Project Section */
+  #projects .project-item {
+    flex-direction: row;
+  } 
+  #projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  #projects .project-item {
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  #projects .all-projects .project-info {
+    height: 100%;
+  }
+  #projects .all-projects .project-img {
+    height: 100%;
+  }
+  /* End Project Section */
+}
+/* End Media Query For Tablet */
